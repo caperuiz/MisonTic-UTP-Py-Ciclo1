@@ -34,3 +34,6 @@ def listaPeliculas(rutaFileCsv: str) -> str:
     else:
         print('Extensión inválida.')
     return
+
+
+print(listaPeliculas(rutaFileCsv))
